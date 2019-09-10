@@ -9,11 +9,11 @@ from SamplePreprocessor import preprocess
 
 class FilePaths:
 	"filenames and paths to data"
-	fnCharList = '../model/charList.txt'
-	fnAccuracy = '../model/accuracy.txt'
-	fnTrain = '../data/'
-	fnInfer = '../data/test.png'
-	fnCorpus = '../data/corpus.txt'
+	fnCharList = 'D:/GitHub/SimpleHTR/model/charList.txt'
+	fnAccuracy = 'D:/GitHub/SimpleHTR/model/accuracy.txt'
+	fnTrain = 'D:/GitHub/SimpleHTR/data'
+	fnInfer = 'D:/GitHub/SimpleHTR/src/test.png'
+	fnCorpus = 'D:/GitHub/SimpleHTR/data/corpus.txt'
 
 
 def train(model, loader):
